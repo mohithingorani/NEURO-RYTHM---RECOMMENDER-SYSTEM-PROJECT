@@ -1,0 +1,26 @@
+# Core dependencies
+numpy>=1.26.0
+pandas>=2.1.0
+scikit-learn>=1.4.0
+matplotlib>=3.8.0
+
+# Deep Learning
+torch>=2.2.0
+torchvision>=0.17.0
+
+# Web API
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.7.0
+python-multipart>=0.0.9
+
+# UI
+streamlit>=1.38.0
+requests>=2.31.0
+
+# Utilities
+joblib>=1.3.0
+pathlib>=1.0.1
+
+# Optional (for future expansion)
+librosa>=0.10.1  # if adding real audio embeddings
